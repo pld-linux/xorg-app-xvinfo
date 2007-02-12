@@ -1,5 +1,5 @@
 Summary:	xvinfo application
-Summary(pl.UTF-8):   Aplikacja xvinfo
+Summary(pl.UTF-8):	Aplikacja xvinfo
 Name:		xorg-app-xvinfo
 Version:	1.0.1
 Release:	1
