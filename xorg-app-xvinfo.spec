@@ -1,5 +1,5 @@
 Summary:	xvinfo application
-Summary(pl):	Aplikacja xvinfo
+Summary(pl.UTF-8):   Aplikacja xvinfo
 Name:		xorg-app-xvinfo
 Version:	1.0.1
 Release:	1
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xvinfo application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja xvinfo.
 
 %prep
