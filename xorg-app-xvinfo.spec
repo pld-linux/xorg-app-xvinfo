@@ -1,12 +1,12 @@
-Summary:	xvinfo application
-Summary(pl.UTF-8):	Aplikacja xvinfo
+Summary:	xvinfo application to print X-Video extension adaptor information
+Summary(pl.UTF-8):	Aplikacja xvinfo do wypisywania informacji o rozszerzeniu X-Video
 Name:		xorg-app-xvinfo
-Version:	1.0.1
+Version:	1.0.2
 Release:	1
 License:	MIT
 Group:		X11/Application
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xvinfo-%{version}.tar.bz2
-# Source0-md5:	0a5bd8e43de6eb8ff5b5bc673204401d
+# Source0-md5:	e1e318436f49e2f0f3764593dadd9ad2
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -16,10 +16,12 @@ BuildRequires:	xorg-util-util-macros >= 0.99.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-xvinfo application.
+xvinfo prints out the capabilities of any video adaptors associated
+with the display that are accessible through the X-Video extension.
 
 %description -l pl.UTF-8
-Aplikacja xvinfo.
+Program xvinfo wypisuje możliwości kart graficznych związanych z
+wyświetlaczem, dostępnych poprzez rozszerzenie X-Video.
 
 %prep
 %setup -q -n xvinfo-%{version}
