@@ -4,7 +4,7 @@ Name:		xorg-app-xvinfo
 Version:	1.0.2
 Release:	1
 License:	MIT
-Group:		X11/Application
+Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xvinfo-%{version}.tar.bz2
 # Source0-md5:	e1e318436f49e2f0f3764593dadd9ad2
 URL:		http://xorg.freedesktop.org/
