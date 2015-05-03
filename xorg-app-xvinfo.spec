@@ -2,7 +2,7 @@ Summary:	xvinfo application to print X-Video extension adaptor information
 Summary(pl.UTF-8):	Aplikacja xvinfo do wypisywania informacji o rozszerzeniu X-Video
 Name:		xorg-app-xvinfo
 Version:	1.1.2
-Release:	1
+Release:	2
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xvinfo-%{version}.tar.bz2
@@ -50,4 +50,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc COPYING ChangeLog README
 %attr(755,root,root) %{_bindir}/xvinfo
-%{_mandir}/man1/xvinfo.1x*
+%{_mandir}/man1/xvinfo.1*
